@@ -1,7 +1,7 @@
 //Set up mongoose connection
     const mongoose = require('mongoose');
     const MongoClient = require("mongodb").MongoClient;
-    const mongoDB = 'mongodb://localhost:27017';
+    const mongoDB = 'mongodb://localhost:28017';
     var database, collection;
     mongoose.connect(mongoDB, {useNewUrlParser: true, dbName: "RAF"});
     MongoClient.connect(mongoDB, {useNewUrlParser: true},function (err,client){
